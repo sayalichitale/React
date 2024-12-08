@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>This is map() example which applies on every object an an array and creates new array and keeps the orinal array same</h2>
+        <p1 id="demo"></p1>
+        <br>
+        <p1 id="demo1"></p1>
+        <script>
+            const numbers = [4, 9, 16, 25];
+            const x = numbers.map(Math.sqrt);
+            document.getElementById("demo").innerHTML = x;
+         
+            document.getElementById("demo1").innerHTML = numbers;
+        </script>
+    </body>
+</html>
